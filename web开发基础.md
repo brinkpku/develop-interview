@@ -35,3 +35,10 @@ Python web开发中，服务端程序可分为两个部分：
 WSGI：wsgi是python web开发的标准，类似于协议。它是服务器程序和应用程序的一个约定，规定了各自使用的接口和功能，以便二和互相配合
 
 [参考：WSGI的理解](https://www.cnblogs.com/eric-nirnava/p/wsgi.html)
+
+### MVVM
+MVVM是Model-View-ViewModel的缩写，借鉴了后端MVC的思想，目的在于实现前端的数据与显示的分离。Model负责数据，View负责展示，ViewModel关联Model和view。
+
+MVVM的设计思想是关注Model的变化，让MVVM框架去自动更新DOM的状态，从而把开发者从操作DOM的繁琐步骤中解脱出来。
+
+分为双向绑定(更新view、model二者其一，另一个自动更新，如vue支持双向绑定)和单向绑定(更新model，view会更新，但反过来不行)。
